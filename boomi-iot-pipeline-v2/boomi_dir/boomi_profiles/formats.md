@@ -28,8 +28,8 @@
 
 ## Simulator Function Outputs
 
-| Input name | Input type |
-| --------------- | --------------- |
+| Input name |
+| --------------- |
 | gpsterminalidoutput |
 | latitudeoutput |
 | longitudeoutput |
