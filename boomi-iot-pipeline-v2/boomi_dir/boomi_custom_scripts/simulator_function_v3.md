@@ -13,21 +13,6 @@ import java.text.SimpleDateFormat
 import java.io.InputStream;
 import groovy.time.*;
 
-// gpsterminalidinput
-// latitudeinput
-// longitudeinput
-// temperatureinput
-// fuelinput
-
-// gpsterminalidoutput
-// latitudeoutput
-// longitudeoutput
-// distancediff
-// temperatureoutput
-// speed
-// fueldiff
-// fueltotal
-
 int intValue = 0;
 for ( int i = 0; i <= intValue; i++) {
 
