@@ -25,6 +25,8 @@ Prior to the operation, there is a set properties shape to set the replacement v
 * Dynamic Document Property: gpsterminalId
 * Derived value: JSON profile element of gpsterminalid from gpsinventory-http-req-res-profile
 
+### PUT Operation
+
 * Method: PUT
 * Resource Path:
     * gpsinventory/
