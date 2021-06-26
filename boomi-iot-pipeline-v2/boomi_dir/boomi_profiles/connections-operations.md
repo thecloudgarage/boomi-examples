@@ -49,6 +49,8 @@ Prior to the operation, there is a set properties shape to set the replacement v
 * Import:  Allow dynamic topics
 * Client ID: Random unique value
 
+______________________________________________________________________________________________________________________________
+
 # Process 3
 
 ## Kafka consumer
@@ -56,6 +58,6 @@ Prior to the operation, there is a set properties shape to set the replacement v
 * Kafka connnector action: LISTEN
 * Reuse the same Kafka connection
 * Operation
-    ** Import "gps" topic
-    ** client ID: random unique value
-    ** consumer group: random unique value
+    * Import "gps" topic
+    * client ID: random unique value
+    * consumer group: random unique value
