@@ -44,7 +44,7 @@
 
 ## Processor Map Input Profile (Flatfile)
 
-> **NOTE** timestamp format is retained as character as incoming messages are received as string and then transformed to JSON, wherein date/time formats are not understood by JSON.. So we retain timestamp value as type "character"
+> **NOTE** timestamp format is retained as type "character". Incoming MQTT messages are received as string and then transformed to JSON down the pipeline. Herein date/time formats are not understood by JSON.. So we retain timestamp value as type "character"
 
 | data element | data format option | format |
 | --------------- | --------------- | --------------- |
@@ -75,3 +75,26 @@
 | fuelTotal | number | #.## |
 | lat | number | #.###### |
 | lon | number | #.###### |
+
+## Processor map output profile (JSON)
+
+| data element | data format option | format |
+| --------------- | --------------- | --------------- |
+| gpsterminalId | character | Not Applicable |
+| customerId | character | Not Applicable |
+| customerName | character | Not Applicable |
+| driverId | character | Not Applicable |
+| driverName | character | Not Applicable |
+| vehicleNumber | character | Not Applicable |
+| vehicleCategory | character | Not Applicable |
+| location > object > lat | number | #.###### |
+| location > object > lon | number | #.###### |
+| temperature | number | #.## |
+| speed | number | #.## |
+| fuelTotal | number | #.## |
+| distanceTotal | number | #.## |
+| fueldiff | number | #.## |
+| distancediff | number | #.## |
+| fuelefficiency | number | #.## |
+| timestamp | number | #.## |
+
