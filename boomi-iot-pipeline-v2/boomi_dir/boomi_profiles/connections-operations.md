@@ -7,6 +7,9 @@ All connection hostnames are derived as per docker-compose.yml. Services communi
 * Hostname: mosquitto
 * Port: 1883
 
+____________________________________________________________________________________________________________________________________________________________
+
+
 # Process 2
 
 ## HTTP Client Connection
