@@ -1,3 +1,6 @@
+Copy and paste the below groovy script in the Custom Scripting Function for the Simulator map with Groovy version set as 2.4
+
+```
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -112,3 +115,4 @@ Calendar cal = Calendar.getInstance();
 DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
 timestampoutput = dateFormat.format(cal.getTime());
 }
+```
