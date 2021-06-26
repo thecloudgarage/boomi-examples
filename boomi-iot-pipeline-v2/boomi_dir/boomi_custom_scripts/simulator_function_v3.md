@@ -1,6 +1,3 @@
-Copy and paste the below groovy code in the simulator process for the custom scripting function inside of the map.
-
-```
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -90,17 +87,17 @@ distancediffoutput = distancediff;
 // Assume fuel efficiency for varying speeds
 
 if (speedoutput <= 30.00) {
-fuelefficiency = 10.00 -  Math.random() - Math.random();
+fuelefficiencyoutput = 10.00 -  Math.random() - Math.random();
 }
 else if (speedoutput <= 50.00){
-fuelefficiency = 10.00 +  Math.random();
+fuelefficiencyoutput = 10.00 +  Math.random();
 }
 else {
-fuelefficiency = 10.00 +  Math.random() + Math.random();
+fuelefficiencyoutput = 10.00 +  Math.random() + Math.random();
 };
 
 // Calculate amount of fuel required for the incremental distance
-fueldiffoutput = distancediff / fuelefficiency;
+fueldiffoutput = distancediff / fuelefficiencyoutput;
 
 // Calculate total fuel consumed
 if (fueltotalinput != null) {
@@ -115,4 +112,3 @@ Calendar cal = Calendar.getInstance();
 DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
 timestampoutput = dateFormat.format(cal.getTime());
 }
-```
