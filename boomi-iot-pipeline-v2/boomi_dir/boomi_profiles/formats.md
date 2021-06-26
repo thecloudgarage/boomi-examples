@@ -28,7 +28,7 @@
 
 ## Simulator Function Outputs
 
-| Input name |
+| Output name |
 | --------------- |
 | gpsterminalidoutput |
 | latitudeoutput |
@@ -41,3 +41,23 @@
 | distanceoutput |
 | fuelefficiencyoutput |
 | timestampoutput |
+
+## Processor Map Input Profile (Flatfile)
+
+> **NOTE** timestamp format is retained as character as incoming messages are received as string and then transformed to JSON, wherein date/time formats are not understood by JSON.. So we retain timestamp value as type "character"
+
+| data element | data format option | format |
+| --------------- | --------------- | --------------- |
+| gpsterminalid | character | Not Applicable |
+| lat | number | #.###### |
+| long | number | #.###### |
+| temperature | number | #.## |
+| speed | number | #.## |
+| fueltotal | number | #.## |
+| distancetotal | number | #.## |
+| fueldiff | number | #.## |
+| distancediff | number | #.## |
+| fuelefficiency | number | #.## |
+| timestamp | character | Not Applicable |
+
+
