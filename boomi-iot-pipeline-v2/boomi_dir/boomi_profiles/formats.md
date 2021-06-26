@@ -25,3 +25,17 @@
 | fueltotalinput | Float |
 | distancetotalinput | Float |
 | timestamp | datetime
+
+## Simulator Function Outputs
+
+gpsterminalidoutput
+latitudeoutput
+longitudeoutput
+temperatureoutput
+speedoutput
+fueltotaloutput
+distancetotaloutput
+fueldiffoutput
+distanceoutput
+fuelefficiency
+timestampoutput
