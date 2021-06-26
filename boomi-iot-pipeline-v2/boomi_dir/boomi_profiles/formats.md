@@ -2,7 +2,7 @@
 
 | data element | data format option | format |
 | --------------- | --------------- | --------------- |
-| gpsterminalid | character |
+| gpsterminalid | character | Not Applicable |
 | lat | number | #.###### |
 | long | number | #.###### |
 | temperature | number | #.## |
@@ -28,14 +28,16 @@
 
 ## Simulator Function Outputs
 
-gpsterminalidoutput
-latitudeoutput
-longitudeoutput
-temperatureoutput
-speedoutput
-fueltotaloutput
-distancetotaloutput
-fueldiffoutput
-distanceoutput
-fuelefficiency
-timestampoutput
+| Input name | Input type |
+| --------------- | --------------- |
+| gpsterminalidoutput |
+| latitudeoutput |
+| longitudeoutput |
+| temperatureoutput |
+| speedoutput |
+| fueltotaloutput |
+| distancetotaloutput |
+| fueldiffoutput |
+| distanceoutput |
+| fuelefficiency |
+| timestampoutput |
