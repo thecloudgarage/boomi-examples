@@ -64,3 +64,12 @@ ________________________________________________________________________________
     * Import "gps" topic
     * client ID: random unique value
     * consumer group: random unique value
+    * Auto offset reset: Latest
+
+## ElasticSearch via HTTP client
+
+* Reuse same HTTP client connection
+* Operation
+    * Reuse the profile **Processor-map-out** as the message is moving from Kafka to ElasticSearch without any transformations
+    * HTTP method: POST
+    * Resource path: elasticsearch (de-select Is replacement variable)
