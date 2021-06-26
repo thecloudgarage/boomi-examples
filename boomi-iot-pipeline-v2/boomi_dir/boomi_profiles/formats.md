@@ -39,5 +39,5 @@
 | distancetotaloutput |
 | fueldiffoutput |
 | distanceoutput |
-| fuelefficiency |
+| fuelefficiencyoutput |
 | timestampoutput |
