@@ -1,9 +1,13 @@
 All connection hostnames are derived as per docker-compose.yml. Services communicate with each other using the docker network created along with service name & internal port number of the respective docker containers.
 
+# Process 1 & 2
+
 ## MQTT
 
 * Hostname: mosquitto
 * Port: 1883
+
+# Process 2
 
 ## HTTP Client Connection
 
@@ -45,6 +49,13 @@ Prior to the operation, there is a set properties shape to set the replacement v
 * Import:  Allow dynamic topics
 * Client ID: Random unique value
 
+# Process 3
+
 ## Kafka consumer
 
-* Import: 
+* Kafka connnector action: LISTEN
+* Reuse the same Kafka connection
+* Operation
+    ** Import "gps" topic
+    ** client ID: random unique value
+    ** consumer group: random unique value
