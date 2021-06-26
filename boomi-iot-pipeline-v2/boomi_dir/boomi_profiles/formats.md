@@ -1,4 +1,4 @@
-## Simulator input/output profile (data elements, data types, formats)
+## Simulator input/output profile (flatfile)
 
 | data element | data format option | format |
 | --------------- | --------------- | --------------- |
@@ -14,7 +14,7 @@
 | fuelefficiency | number | #.## |
 | timestamp | datetime | yyyy-MM-dd'T'HH:mm:ss.SSS'Z' |
 
-## Simulator Function Inputs
+## Simulator map Function Inputs
 
 | Input name | Input type |
 | --------------- | --------------- |
@@ -26,7 +26,7 @@
 | distancetotalinput | Float |
 | timestamp | datetime
 
-## Simulator Function Outputs
+## Simulator map Function Outputs
 
 | Output name |
 | --------------- |
@@ -60,4 +60,18 @@
 | fuelefficiency | number | #.## |
 | timestamp | character | Not Applicable |
 
+## gpsinventory-http-req/res-profile (JSON)
 
+| data element | data format option | format |
+| --------------- | --------------- | --------------- |
+| gpsterminalId | character | Not Applicable |
+| customerId | character | Not Applicable |
+| customerName | character | Not Applicable |
+| driverId | character | Not Applicable |
+| driverName | character | Not Applicable |
+| vehicleNumber | character | Not Applicable |
+| vehicleCategory | character | Not Applicable |
+| distanceTotal | number | #.## |
+| fuelTotal | number | #.## |
+| lat | number | #.###### |
+| lon | number | #.###### |
