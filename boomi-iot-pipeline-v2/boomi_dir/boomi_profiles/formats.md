@@ -96,5 +96,5 @@
 | fueldiff | number | #.## |
 | distancediff | number | #.## |
 | fuelefficiency | number | #.## |
-| timestamp | number | #.## |
+| timestamp | character | Not Applicable |
 
