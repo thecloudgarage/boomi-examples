@@ -26,7 +26,7 @@ This single connection is used for both HTTP lookups in the processor map functi
     * gpsterminalId (select is Replacement variable?)
 
 
-## gpsinventory-http-put-operation (update current values back into postgresql via springboot)
+## Processor HTTP PUT operation (update current values back into postgresql via springboot)
 
 Prior to the operation, there is a set properties shape to set the replacement variable via the Dynamic Document property
 * Dynamic Document Property: gpsterminalId
