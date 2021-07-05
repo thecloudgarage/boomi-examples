@@ -1,4 +1,4 @@
-## MQTT-send profile (flatfile)
+## mqtt-send-profile (flatfile)
 
 | data element | data format option | format |
 | --------------- | --------------- | --------------- |
@@ -42,7 +42,7 @@
 | fuelefficiencyoutput |
 | timestampoutput |
 
-## MQTT-receive (Flatfile)
+## mqtt-receive-profile (Flatfile)
 
 > **NOTE** timestamp format is retained as type "character". Incoming MQTT messages are received as string and then transformed to JSON down the pipeline. Herein date/time formats are not understood by JSON.. So we retain timestamp value as type "character"
 
@@ -60,7 +60,7 @@
 | fuelefficiency | number | #.## |
 | timestamp | character | Not Applicable |
 
-## REST API Profile (JSON)
+## rest-api-profile (JSON)
 
 | data element | data format option | format |
 | --------------- | --------------- | --------------- |
@@ -76,7 +76,7 @@
 | lat | number | #.###### |
 | lon | number | #.###### |
 
-## KAFKA-ES Profile (JSON)
+## kafka-profile (JSON)
 
 | data element | data format option | format |
 | --------------- | --------------- | --------------- |
