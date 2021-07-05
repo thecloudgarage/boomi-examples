@@ -1,4 +1,4 @@
-## Simulator input/output profile (flatfile)
+## MQTT-send profile (flatfile)
 
 | data element | data format option | format |
 | --------------- | --------------- | --------------- |
@@ -42,7 +42,7 @@
 | fuelefficiencyoutput |
 | timestampoutput |
 
-## Processor Map Input Profile (Flatfile)
+## MQTT-receive (Flatfile)
 
 > **NOTE** timestamp format is retained as type "character". Incoming MQTT messages are received as string and then transformed to JSON down the pipeline. Herein date/time formats are not understood by JSON.. So we retain timestamp value as type "character"
 
@@ -60,7 +60,7 @@
 | fuelefficiency | number | #.## |
 | timestamp | character | Not Applicable |
 
-## gpsinventory-http-req/res-profile (JSON)
+## REST API Profile (JSON)
 
 | data element | data format option | format |
 | --------------- | --------------- | --------------- |
@@ -76,7 +76,7 @@
 | lat | number | #.###### |
 | lon | number | #.###### |
 
-## Processor map output profile (JSON)
+## KAFKA-ES Profile (JSON)
 
 | data element | data format option | format |
 | --------------- | --------------- | --------------- |
