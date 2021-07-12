@@ -27,11 +27,8 @@ services:
     links:
       - zookeeper
       - kafka
-      - kafka-connect
       - mosquitto
-      - gpsinventory
-      - gpsinventory-api
-
+      - nginx-reverse-proxy
 
   mosquitto:
     image: eclipse-mosquitto:1.6.14
