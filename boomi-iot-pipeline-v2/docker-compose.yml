@@ -14,9 +14,9 @@ services:
     privileged: true
     environment:
       - URL=https://platform.boomi.com
-      - BOOMI_ATOMNAME=iotsimulation
-      - BOOMI_CONTAINERNAME=iotsimulation
-      - ATOM_LOCALHOSTID=iotsimulation
+      - BOOMI_ATOMNAME=iotdemo
+      - BOOMI_CONTAINERNAME=iotdemo
+      - ATOM_LOCALHOSTID=iotdemo
       - INSTALL_TOKEN=boomiToken
       - BOOMI_ENVIRONMENTID=boomiEnvironmentId
       - INSTALLATION_DIRECTORY=/var/boomi
